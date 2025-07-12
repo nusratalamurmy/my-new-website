@@ -146,7 +146,60 @@ main {
 }
  
  
+.Focused-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
  
+.Focused-content {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+ 
+.Focused-text h2 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 20px;
+}
+ 
+.Focused-text p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+ 
+.btn-secondary {
+  padding: 12px 28px;
+  background-color: #4e5cff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+ 
+.btn-secondary:hover {
+  background-color: #3d48e3;
+  transform: scale(1.05);
+}
+ 
+.Focused-image {
+  display: flex;
+  justify-content: center;
+}
+ 
+.Focused-image img {
+  max-width: 100%;
+  width: 80%;
+  border-radius: 12px;
+}
  
  
  
