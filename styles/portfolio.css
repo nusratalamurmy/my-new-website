@@ -1,0 +1,148 @@
+/* Nav styles */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #4E47FF;
+}
+nav ul li {
+  list-style: none;
+}
+nav li a {
+  font-size: 20px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+.btn-pri {
+  background-color: #4e5cff;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.btn-pri:hover {
+  transform: scale(1.05);
+  background-color: #3d49e6;
+}
+#nusrat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: black;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f5fa url('12.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ 
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('../Assets/12.png');
+  padding: 100px 20px;
+}
+.cta-btn {
+  padding: 12px 28px;
+  background-color: #4e5cff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+ 
+.cta-btn:hover {
+  background-color: #3d48e3;
+  transform: scale(1.05);
+}
+ 
+/* Action Section */
+.action-section {
+  padding: 60px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.action-left h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.action-right img {
+  width: 400px;
+}
+ 
+/* Productive Users Section */
+.productive-section {
+  background-color: 4E47FF;
+  padding: 80px 50px;
+  text-align: center;
+}
+.productive-stats {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 30px;
+}
+.stat h3 {
+  font-size: 2rem;
+  color: #4E47FF;
+}
+ 
+ 
+/* Feedback Section */
+.feedback-section {
+  padding: 60px 100px;
+  text-align: center;
+}
+.review img {
+  width: 80%auto;
+  border-radius: 50%;
+}
+ 
+ 
