@@ -146,3 +146,70 @@ main {
 }
  
  
+ 
+ 
+ 
+ 
+/* Contact Section */
+.contact-section {
+  display: flex;
+  padding: 60px 100px;
+  gap: 40px;
+}
+.contact-left h2 {
+  font-size: 2rem;
+}
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.contact-right input,
+.contact-right textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+textarea {
+  height: 100px;
+}
+ 
+/* Footer */
+.site-footer {
+  background-color: #f4f5fa;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: auto;
+}
+ 
+.footer-logo {
+  font-weight: 800;
+  font-size: 36px;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+ 
+.footer-subtitle {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+ 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+ 
+.footer-links a {
+  color: #4E47FF;
+  text-decoration: none;
+  font-size: 16px;
+}
+ 
+.footer-links a:hover {
+  text-decoration: underline;
+}
+ 
+ 
